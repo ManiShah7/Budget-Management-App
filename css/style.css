@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum|EB+Garamond');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  padding: 15px;
+  background-color: #dfe6e9;
+}
+
+.welcome-heading {
+  font-family: 'Cuprum', sans-serif;
+  color: #2d3436;
+}
+
+.user-inputs-screen {
+  background: #2d3436;
+  padding: 2rem;
+}
+
+.user-inputs-screen p {
+  font-size: 3rem;
+}
+
+.padding-10 {
+  padding: 10px;
+  color: #fff;
+}
+
+.top-intro {
+  background: #0984e3;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.fas {
+  font-size: 3rem;
+  color: #fdcb6e;
+}
+
+.fa-edit {
+  font-size: 1.1rem;
+  color: #00b894;
+}
+
+.fa-trash {
+  font-size: 1.1rem;
+  color: #d63031;
+}
+
+.num {
+  color: #fff;
+  font-size: 3rem;
+}
+
+/* .income-total {
+  padding: 2rem;
+}
+
+.balance-total {
+  padding: 2rem;
+} */
+
+input {
+  border: 1px solid #eee;
+}
+
+.list {
+  background: #fff;
+  padding: 1rem;
+  color: #fff;
+}
+
+.budget-error, .expense-error{
+  visibility: hidden;
+}
+
+.delete-warning {
+  display: none;
+}
+
+#remove-budget-btn {
+  display: none;
+}
+
+#back-budget-btn {
+  display: none;
+}
+
+#update-budget-btn {
+  display: none;
+}
+
+.table a {
+  color: #000;
+  text-decoration: none;
+}
